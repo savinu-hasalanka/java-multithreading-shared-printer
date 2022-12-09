@@ -1,4 +1,4 @@
-public interface ServicePrinter {
+public interface ServicePrinter extends Printer {
     int PAPER_TRAY_MAX_SIZE = 250;
     int SHEETS_PER_PACK = 50;
 
