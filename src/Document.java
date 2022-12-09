@@ -1,12 +1,12 @@
 public class Document {
     private final int ID;
     private final int Name;
-    private final int NoPages;
+    private final int noPages;
 
     public Document(int ID, int name, int noPages) {
         this.ID = ID;
         Name = name;
-        NoPages = noPages;
+        this.noPages = noPages;
     }
 
     public int getID() {
@@ -18,6 +18,6 @@ public class Document {
     }
 
     public int getNoPages() {
-        return NoPages;
+        return noPages;
     }
 }
