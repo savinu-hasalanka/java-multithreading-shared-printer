@@ -1,9 +1,9 @@
 public class Document {
     private final int ID;
-    private final int Name;
+    private final String Name;
     private final int noPages;
 
-    public Document(int ID, int name, int noPages) {
+    public Document(int ID, String name, int noPages) {
         this.ID = ID;
         Name = name;
         this.noPages = noPages;
@@ -13,7 +13,7 @@ public class Document {
         return ID;
     }
 
-    public int getName() {
+    public String getName() {
         return Name;
     }
 
